@@ -11,7 +11,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     title:
       "Tailwind Master Kit - Handcrafted, Production ready components for your web projects",
     description: `Get professionally designed, handcrafted components in HTML, React for your web based application.`,
-    image: "https://tailwindmasterkit.com/img/social-card.jpg",
+    image: "/avatar.png",
     type: "website",
     ...customMeta,
   };

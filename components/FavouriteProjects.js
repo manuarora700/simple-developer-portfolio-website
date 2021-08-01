@@ -5,8 +5,8 @@ export default function FavouriteProjects() {
   return (
     <div class="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div class="max-w-6xl mx-auto">
-        <header class="flex flex-col md:flex-row justify-between items-center pt-40 mx-10">
-          <h1 class="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white text-center">
+        <header class="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
+          <h1 class="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
             Favourite Projects
           </h1>
           <Link href="/work">
