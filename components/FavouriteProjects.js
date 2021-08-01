@@ -3,20 +3,20 @@ import Link from "next/link";
 
 export default function FavouriteProjects() {
   return (
-    <div class="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
-      <div class="max-w-6xl mx-auto">
-        <header class="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
-          <h1 class="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
+    <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
+      <div className="max-w-6xl mx-auto">
+        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
+          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
             Favourite Projects
           </h1>
           <Link href="/work">
-            <a class="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
+            <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-up-right-square"
+                className="bi bi-arrow-up-right-square"
                 stroke="4"
                 strokeWidth="4"
                 viewBox="0 0 16 16"
@@ -32,22 +32,22 @@ export default function FavouriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div class="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
             href="https://tailwindmasterkit.com"
-            class="w-full block col-span-3"
+            className="w-full block col-span-3"
           >
-            <div class="relative overflow-hidden">
+            <div className="relative overflow-hidden">
               <img
                 src="/tmk.jpg"
                 alt="portfolio"
-                class="transform hover:scale-125 transition duration-2000 ease-out"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 class="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Tailwind Master Kit
               </h1>
-              <h1 class="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
               </h1>
             </div>
@@ -55,19 +55,19 @@ export default function FavouriteProjects() {
           {/* Single card */}
           <a
             href="https://placeholdertech.in"
-            class="w-full block col-span-3  sm:col-span-2"
+            className="w-full block col-span-3  sm:col-span-2"
           >
-            <div class="relative overflow-hidden">
-              {/* <div class="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+            <div className="relative overflow-hidden">
+              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/placeholdertech.png"
                 alt="portfolio"
-                class="transform hover:scale-125 transition duration-2000 ease-out"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 class="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 PlaceholderTech
               </h1>
-              <h1 class="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
               </h1>
             </div>
@@ -75,19 +75,19 @@ export default function FavouriteProjects() {
           {/* Single card */}
           <a
             href="https://manuarora.in"
-            class="w-full block col-span-3 sm:col-span-1"
+            className="w-full block col-span-3 sm:col-span-1"
           >
-            <div class="relative overflow-hidden">
-              {/* <div class="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+            <div className="relative overflow-hidden">
+              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/portfolio.png"
                 alt="portfolio"
-                class="transform hover:scale-125 transition duration-2000 ease-out"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 class="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Portfolio
               </h1>
-              <h1 class="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
               </h1>
             </div>
