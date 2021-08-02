@@ -34,9 +34,9 @@ export default function Navbar() {
               About
             </a>
           </Link>
-          <Link href="/work">
+          <Link href="/projects">
             <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-              Work
+              Projects
             </a>
           </Link>
           <Link href="/education">
@@ -137,9 +137,9 @@ export default function Navbar() {
             About
           </a>
         </Link>
-        <Link href="/work">
+        <Link href="/projects">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Work
+            Projects
           </a>
         </Link>
         <Link href="/education">
