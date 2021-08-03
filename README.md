@@ -4,10 +4,26 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 
 ![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/websitegif.gif)
 
-## Pages
+# Pages
 
 I've kept the pages as simple as possible. Only the required sections are included with minimal content.
 
-# Landing
+## Landing
 
 ![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
+
+## About
+
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/about.png)
+
+## Projects
+
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/projects.png)
+
+## Experience
+
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
+
+## Contact
+
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
