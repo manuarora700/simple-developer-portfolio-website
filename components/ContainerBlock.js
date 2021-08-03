@@ -8,9 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title:
-      "Tailwind Master Kit - Handcrafted, Production ready components for your web projects",
-    description: `Get professionally designed, handcrafted components in HTML, React for your web based application.`,
+    title: "Manu Arora - Developer, Writer, Creator and YouTuber",
+    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
