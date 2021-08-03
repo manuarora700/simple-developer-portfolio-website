@@ -4,6 +4,14 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 
 ![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/websitegif.gif)
 
+# Features
+
+- Responsive layout, works well on both Mobile and Desktop
+- Dark mode support. Click buttons to toggle dark mode and light mode.
+- Clear React components and tailwind styling.
+- Exact sections that a developer needs to showcase their skills.
+- Clear call to actions.
+
 # Pages
 
 I've kept the pages as simple as possible. Only the required sections are included with minimal content.
