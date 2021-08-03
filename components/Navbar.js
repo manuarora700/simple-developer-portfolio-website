@@ -39,9 +39,9 @@ export default function Navbar() {
               Projects
             </a>
           </Link>
-          <Link href="/education">
+          <Link href="/experience">
             <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-              Education
+              Experience
             </a>
           </Link>
           <Link href="/contact">
@@ -142,9 +142,9 @@ export default function Navbar() {
             Projects
           </a>
         </Link>
-        <Link href="/education">
+        <Link href="/experience">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Education
+            Experience
           </a>
         </Link>
         <Link href="/contact">
