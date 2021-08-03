@@ -30,7 +30,7 @@ export default function Contact() {
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
                   />
                 </svg>
@@ -101,8 +101,8 @@ export default function Contact() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M8 3C9.10457 3 10 3.89543 10 5V8H16C17.1046 8 18 8.89543 18 10C18 11.1046 17.1046 12 16 12H10V14C10 15.6569 11.3431 17 13 17H16C17.1046 17 18 17.8954 18 19C18 20.1046 17.1046 21 16 21H13C9.13401 21 6 17.866 6 14V5C6 3.89543 6.89543 3 8 3Z"
                     fill="currentColor"
                   />
@@ -121,8 +121,8 @@ export default function Contact() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z"
                     fill="currentColor"
                   />
@@ -131,8 +131,8 @@ export default function Contact() {
                     fill="currentColor"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
                     fill="currentColor"
                   />
@@ -141,7 +141,7 @@ export default function Contact() {
             </div>
           </div>
           <form className="form rounded-lg bg-white p-4 flex flex-col">
-            <label for="name" className="text-sm text-gray-600 mx-4">
+            <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
             </label>
@@ -150,7 +150,7 @@ export default function Contact() {
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
             />
-            <label for="email" className="text-sm text-gray-600 mx-4 mt-4">
+            <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
               Email
             </label>
             <input
@@ -158,7 +158,10 @@ export default function Contact() {
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
             />
-            <label for="message" className="text-sm text-gray-600 mx-4 mt-4">
+            <label
+              htmlFor="message"
+              className="text-sm text-gray-600 mx-4 mt-4"
+            >
               Message
             </label>
             <textarea
