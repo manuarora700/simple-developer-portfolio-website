@@ -6,4 +6,4 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 # Landing
 
-![Hompage](/demo-images/landing.png)
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
