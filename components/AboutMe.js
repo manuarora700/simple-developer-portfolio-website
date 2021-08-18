@@ -1,4 +1,5 @@
 import React from "react";
+import userData from "@constants/data";
 
 export default function AboutMe() {
   return (
@@ -14,13 +15,12 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            I'm a software developer that loves building products and web
-            applications that impact millions of lives. Currently working on{" "}
+            {userData.about.title}. Currently working on{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href="https://tailwindmasterkit.com"
+              href={userData.about.currentProjectUrl}
             >
-              Tailwind Master Kit ✈️
+              {userData.about.currentProject} ✈️
             </a>
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, shoot a{" "}
                 <a
-                  href="#"
+                  href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   mail
@@ -52,7 +52,8 @@ export default function AboutMe() {
                 I'm looking for a job currently, If you see me as a good fit,
                 check my{" "}
                 <a
-                  href="#"
+                  href={userData.resumeUrl}
+                  target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   CV
@@ -67,7 +68,7 @@ export default function AboutMe() {
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center ">
                 <a
-                  href="https://facebook.com"
+                  href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -79,7 +80,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href="https://twitter.com"
+                  href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -91,7 +92,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href="https://github.com"
+                  href={userData.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -103,7 +104,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href="https://linkedin.com"
+                  href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -115,7 +116,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href="https://twitter.com"
+                  href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -129,27 +130,15 @@ export default function AboutMe() {
           </div>
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">
-            <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">
-              I've been developing full-stack application since I was 10 years
-              old. I didn't know what full-stack meant at that time because the
-              term was not coined back then. I'm so out of content right now
-              that I'm literally crying writing this text since lorem text is so
-              2012 now.
-            </p>
-            <p className="text-xl text-gray-700 my-4 dark:text-gray-300">
-              After learning HTML and struggling with CSS, I came up with a
-              brilliant idea of using bootstrap so that I don't have to style
-              everything by myself and - for obvious reasons - if you knew
-              bootstrap, you were cool.
-            </p>
-            <p className="text-xl text-gray-700 my-4 dark:text-gray-300">
-              But now, I'm a legend. I've been coding in React, Angular, Vue,
-              Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap,
-              Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and
-              YouDontKnowShit programming language etc to name a few. Although I
-              barely know the syntax (Psst, Stack overflow!), I consider myself
-              a Ninja developer I'm laughing right now.
-            </p>
+            {userData.about.description?.map((desc, idx) => (
+              <p
+                key={idx}
+                className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {desc}
+              </p>
+            ))}
+
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>

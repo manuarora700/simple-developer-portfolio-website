@@ -1,4 +1,5 @@
 import React from "react";
+import userData from "@constants/data";
 
 export default function Footer() {
   return (
@@ -25,7 +26,7 @@ export default function Footer() {
           </div>
           <div className="space-x-4 flex flex-row items-center">
             <a
-              href="https://instagram.com/maninthere"
+              href={userData.socialLinks.instagram}
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
               <svg
@@ -40,7 +41,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://twitter.com/mannupaaji"
+              href={userData.socialLinks.twitter}
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
               <svg
@@ -55,7 +56,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/manuarora28"
+              href={userData.socialLinks.linkedin}
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
               <svg

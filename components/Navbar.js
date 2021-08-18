@@ -141,7 +141,7 @@ export default function Navbar() {
 
         <div className="space-x-4 flex flex-row items-center">
           <a
-            href="https://instagram.com/maninthere"
+            href={userData.socialLinks.instagram}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -156,7 +156,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a
-            href="https://twitter.com/mannupaaji"
+            href={userData.socialLinks.twitter}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -171,7 +171,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/manuarora28"
+            href={userData.socialLinks.linkedin}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
