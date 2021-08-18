@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
+import userData from "@constants/data";
 
 export default function Navbar() {
   const router = useRouter();
@@ -22,10 +23,10 @@ export default function Navbar() {
           <Link href="/">
             <a>
               <h1 className="font-semibold text-xl dark:text-gray-100">
-                Manu Arora
+                {userData.name}
               </h1>
               <p className="text-base font-light text-gray-500 dark:text-gray-300">
-                Full-Stack Developer
+                {userData.designation}
               </p>
             </a>
           </Link>
