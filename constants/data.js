@@ -63,14 +63,18 @@ const userData = {
     {
       title: "Full-stack Web Developer",
       company: "Enspiral Dev Academy",
-      year: "2021-2011",
+      year: "2021-2022",
       companyLink: "https://devacademy.co.nz/?gclid=CjwKCAiAg6yRBhBNEiwAeVyL0EeiwJUNeGivHj7faaWB1zydJx9giU0kemy8n7O7KLyf6tqiccprTxoCse0QAvD_BwE",
-      desc: "Enspiral Dev Academy is NZ’s premiere full immersion web development bootcamp, pioneering hands-on technology education and career development.",
+      desc: [`●	Studied industry level technologies, frameworks and methodologies over a 14 week high intensity bootcamp.`,
+      `●	Pair-Programmed with teammates daily on coding exercise and weekly group project, including utilising JavaScript React, HTML, CSS, Handlebars, integrating APIs in the client-side, adapting Bootstrap and Figma for the user interface, constructing backend routes with Express, Node,js and database with SQLite and db diagrams.`,
+      `●	Implemented Agile Software Development methodology, Version Control (Git) and Test-Driven Development to design products, build wireframes and user stories with Mural, utilised Trello to minimise tasks, debug and test, deliver products and summarise retro meetings. `,
+      `●	Discovered Semantic UI as a CSS library and learned how to use it by reading the documentation in  our project: kiwikickz. Managed the dynamic of the team as the ‘Vibe Checker’, resolved team conflicts and enjoyed coding with team members and debugging, thus creating a more collaborative work environment and helping team reach MVP a half day earlier than planned.`
+    ]
     },
     {
-      title: "Founder and Developer",
-      company: "TailwindMasterKit",
-      year: "2021",
+      title: "Registered Preschool Teacher",
+      company: "Kindercare Learning Centre",
+      year: "2019-2021",
       companyLink: "https://tailwindmasterkit.com",
       desc: "Developed a marketplace for tailwind web components (React, HTML and Angular) and templates.",
     },
