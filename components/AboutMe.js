@@ -5,9 +5,9 @@ export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        {/* <h1 className=" text-5xl md:text-9xl py-20 text-center md:text-left">
           About Me.
-        </h1>
+        </h1> */}
       </div>
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
@@ -17,7 +17,7 @@ export default function AboutMe() {
           >
             {userData.about.title}. Currently working on{" "}
             <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
+              className="bg-[#EEEDDE] -500 rounded-md px-2 py-1 text-Black"
               href={userData.about.currentProjectUrl}
             >
               {userData.about.currentProject} ✈️
@@ -34,14 +34,14 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
+                For any sort help / enquiry, {" "}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  mail
+                  email
                 </a>{" "}
-                and I'll get back. I swear.
+                me and I'll get back to you.
               </p>
             </div>
             <div className="mt-8">
@@ -58,15 +58,15 @@ export default function AboutMe() {
                 >
                   CV
                 </a>{" "}
-                and I'd love to work for you.
+                and I'd love to have a chat.
               </p>
             </div>
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
-              Social Links
+              Find Me Here
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
+              {/* <div className="flex flex-row justify-start items-center ">
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
@@ -77,8 +77,8 @@ export default function AboutMe() {
                     Facebook
                   </p>
                 </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
+              </div> */}
+              {/* <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
@@ -87,6 +87,18 @@ export default function AboutMe() {
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     Twitter
+                  </p>
+                </a>
+              </div> */}
+                <div className="flex flex-row justify-start items-center">
+                <a
+                  href={userData.socialLinks.linkedin}
+                  className="flex flex-row items-center space-x-4 group"
+                >
+                  <div className="my-4">&rarr;</div>
+                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    LinkedIn
                   </p>
                 </a>
               </div>
@@ -102,19 +114,7 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.linkedin}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    LinkedIn
-                  </p>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
+              {/* <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
@@ -125,7 +125,7 @@ export default function AboutMe() {
                     Instagram
                   </p>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Text area */}
