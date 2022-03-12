@@ -4,12 +4,12 @@ import userData from "@constants/data";
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        {/* <h1 className=" text-5xl md:text-9xl py-20 text-center md:text-left">
+      {/* <div className="max-w-6xl mx-auto h-0 bg-white dark:bg-gray-800">
+        <h1 className=" text-5xl md:text-9xl py-20 text-center md:text-left">
           About Me.
-        </h1> */}
-      </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+        </h1>
+      </div> */}
+      <div className="bg-[#bbd1d6] -mt-0 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
@@ -25,7 +25,7 @@ export default function AboutMe() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
+      <div className="bg-[#bbd1d6] dark:bg-gray-900 px-4">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
