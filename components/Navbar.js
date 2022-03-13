@@ -20,7 +20,7 @@ export default function Navbar() {
         {/* Logo / Home / Text */}
 
         <div className="flex flex-col">
-          {/* <Link href="/"> */}
+          <Link href="/">
             <a>
               <h1 className="font-semibold text-xl dark:text-gray-100">
                 {userData.name}
@@ -29,7 +29,7 @@ export default function Navbar() {
                 {userData.designation}
               </p>
             </a>
-          {/* </Link> */}
+          </Link>
         </div>
 
         <div className="space-x-8 hidden md:block">
@@ -59,16 +59,16 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/Projects">
+          {/* <Link href="/projects">
             <a
               className={`text-base  ${
-                router.asPath === "/Projects"
+                router.asPath === "/projects"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
               Projects
-              {router.asPath === "/Projects" && (
+              {router.asPath === "/projects" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -84,7 +84,7 @@ export default function Navbar() {
                 </svg>
               )}
             </a>
-          </Link>
+          </Link>  */}
           <Link href="/experience">
             <a
               className={`text-base  ${
@@ -225,7 +225,7 @@ export default function Navbar() {
             About
           </a>
         </Link>
-        <Link href="/Projects">
+        <Link href="/projects">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Projects
           </a>

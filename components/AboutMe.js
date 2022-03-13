@@ -9,7 +9,7 @@ export default function AboutMe() {
           About Me.
         </h1>
       </div> */}
-      <div className="bg-[#bbd1d6] -mt-0 dark:bg-gray-900">
+      {/* <div className="bg-[#bbd1d6] -mt-0 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
@@ -24,20 +24,20 @@ export default function AboutMe() {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="bg-[#bbd1d6] dark:bg-gray-900 px-4">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div>
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+              <h1 className="text-xl font-semibold text-gray-600 dark:text-gray-200">
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, {" "}
                 <a
                   href={`mailto:${userData.email}`}
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  className="text-gray-800 border-b-2 border-gray-600 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   email
                 </a>{" "}
@@ -45,7 +45,7 @@ export default function AboutMe() {
               </p>
             </div>
             <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+              <h1 className="text-xl font-semibold text-gray-600 dark:text-gray-200">
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
@@ -62,7 +62,7 @@ export default function AboutMe() {
               </p>
             </div>
             {/* Social Links */}
-            <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
+            <h1 className="text-xl font-semibold text-gray-600 mt-8 dark:text-gray-200">
               Find Me Here
             </h1>
             <div className="mt-4 ml-4">
@@ -139,17 +139,25 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 className="bg-[#EEEDDE] -500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-Black">
-              Tech Stack
+            <h1 className="bg-[#5f97ae]-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-600">
+              Tech Skills
             </h1>
-            <div className="flex flex-row flex-wrap mt-8">
-              <h2>Frontend Skills</h2>
-              <p>JavaScript</p>
-              <p>React-Redux</p>
-              <p>HTML</p>
-              <p>CSS</p>
+            {/* <div className="flex flex-row flex-wrap mt-8"> */}
+            <div className="flex flex-row justify-start items-center">
+      
+                  <div className="my-4 text-gray-650">&rarr;</div>
+                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-500">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    Frondend
+                  </p>
+                  {/* <button className="bg-[#5f97ae]-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold">JavaScript</button> */}
+                  <p>:JavaScript | React-Redux | HTML | CSS | RESTful API</p>
+                  
               
-              <img
+              </div>
+              
+              
+              {/* <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
@@ -196,8 +204,8 @@ export default function AboutMe() {
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
-            </div>
+              /> */}
+            {/* </div> */}
           </div>
         </div>
       </div>

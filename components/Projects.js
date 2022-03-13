@@ -4,6 +4,22 @@ import userData from "@constants/data";
 export default function Projects() {
   return (
     <section className="bg-white dark:bg-gray-800">
+      <div className="bg-[#bbd1d6] -mt-0 dark:bg-gray-600">
+        <div className="text-container max-w-6xl mx-auto pt-20">
+          <p
+            className="leading-loose text-xl md:text-4xl font-semibold  mx-4"
+            style={{ lineHeight: "3rem" }}
+          >
+            {userData.about.title}. Currently working on{" "}
+            <a
+              className="bg-[#EEEDDE] -500 rounded-md px-2 py-1 text-Black"
+              href={userData.about.currentProjectUrl}
+            >
+              {userData.about.currentProject} ✈️
+            </a>
+          </p>
+        </div>
+      </div>
       {/* <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Projects
@@ -12,14 +28,17 @@ export default function Projects() {
       {/* Grid starts here */}
       <div className="bg-[#bbd1d6] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+          
           {userData.projects.map((proj, idx) => (
             <ProjectCard
+              key = {proj.title}
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
             />
           ))}
+         
         </div>
       </div>
     </section>
