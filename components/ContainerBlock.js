@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Mei Yang - Developer, Writer, Creator and YouTuber",
     description: `People-oriented software developer.`,
-    image: "/avatar.png",
+    image: "/me.jpg",
     type: "website",
     ...customMeta,
   };

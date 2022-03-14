@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "meiyangdev",
   name: "Mei Yang",
   designation: "Full-Stack Developer",
-  avatarUrl: "/me.jpg",
+  homeUrl: "/me.jpg",
   email: "mei.yang602@gmail.com",
   phone: "021 08890484",
   address: "Wellington, NZ",
