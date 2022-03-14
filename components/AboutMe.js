@@ -66,30 +66,7 @@ export default function AboutMe() {
               Find Me Here
             </h1>
             <div className="mt-4 ml-4">
-              {/* <div className="flex flex-row justify-start items-center ">
-                <a
-                  href={userData.socialLinks.facebook}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Facebook
-                  </p>
-                </a>
-              </div> */}
-              {/* <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.twitter}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Twitter
-                  </p>
-                </a>
-              </div> */}
+              
                 <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.linkedin}
@@ -114,18 +91,7 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
-              {/* <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.twitter}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
-                    Instagram
-                  </p>
-                </a>
-              </div> */}
+             
             </div>
           </div>
           {/* Text area */}
@@ -138,73 +104,22 @@ export default function AboutMe() {
                 {desc}
               </p>
             ))}
-
-            <h1 className="bg-[#5f97ae]-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-600">
-              Tech Skills
-            </h1>
+            <div className="flex flex-row justify-start items-center mb-5">
+            <p className="bg-[#5f97ae]-500 text-3xl rounded-md  inline-block font-bold text-gray-600">
+            Tech Skills
+            </p>
+            </div>
+            
             {/* <div className="flex flex-row flex-wrap mt-8"> */}
             <div className="flex flex-row justify-start items-center">
-      
-                  <div className="my-4 text-gray-650">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-500">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Frondend
+                  <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">
+                  JavaScript | React-Redux | HTML | CSS  
                   </p>
-                  {/* <button className="bg-[#5f97ae]-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold">JavaScript</button> */}
-                  <p>:JavaScript | React-Redux | HTML | CSS | RESTful API</p>
-                  
-              
               </div>
-              
-              
-              {/* <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
+
+              <div className="flex flex-row justify-start items-center">
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">Node.js | CI/CD | RESTful APIs | Agile | TDD</p>
+              </div>
             {/* </div> */}
           </div>
         </div>
