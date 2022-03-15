@@ -4,31 +4,42 @@ import userData from "@constants/data";
 export default function Projects() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="bg-[#bbd1d6] -mt-0 dark:bg-gray-600">
+      <div className="relative z-10 rounded-md shadow-md bg-[#bbd1d6] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-0 dark:bg-gray-600 ">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
-            className="leading-loose text-xl md:text-4xl font-semibold  mx-4"
-            style={{ lineHeight: "3rem" }}
+            className="leading-loose text-xl mb-4 md:text-4xl text-gray-600 font-semibold  mx-4 "
+            style={{ lineHeight: "1rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
+            {userData.about.title}
+            </p>
+            <br></br>
+            <p className="leading-loose text-2xl :text-4xl text-gray-600 font-semibold  mx-4 "
+            style={{ lineHeight: "2rem" }}>
+              {userData.about.summary}
+            </p>
+            {/* <p>
+            Currently working on{" "}
             <a
               className="bg-[#EEEDDE] -500 rounded-md px-2 py-1 text-Black"
               href={userData.about.currentProjectUrl}
             >
               {userData.about.currentProject} ✈️
             </a>
-          </p>
+          </p> */}
         </div>
-      </div>
-      {/* <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          Projects
-        </h1>
-      </div> */}
+      
+     
       {/* Grid starts here */}
       <div className="bg-[#bbd1d6] dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-          
+        <div classname="relative z-10 rounded-md shadow-md bg-[#bbd1d6] bg-[#bbd1d6] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-0" >
+        {/* <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40"> */}
+        <button
+              className="bg-[#5f97ae] -00 rounded-md w-30px mx-2 mt-2 py-2 text-gray-600 text-s font-semibold"
+            >
+
+             <a href= "https://kiwikickz.herokuapp.com/">View Webpage</a> 
+              
+            </button>
           {userData.projects.map((proj, idx) => (
             <ProjectCard
               key = {proj.title}
@@ -40,6 +51,7 @@ export default function Projects() {
           ))}
          
         </div>
+      </div>
       </div>
     </section>
   );

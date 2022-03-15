@@ -25,7 +25,8 @@ const userData = {
   ],
   about: {
     title:
-      "People-oriented software developer that loves building products and web applications that impact millions of lives",
+      "Hi there, thanks for stopping by." ,
+    summary:"My name is Mei. I am a People-oriented junior software developer and feel free to have a look of my project below.",
     description: [
       `I am a full-stack web developer with a background in teaching. I love the combination of problem solving and creativity that developing provides. I find it extremely satisfying to work a problem through to a solution, especially in a team environment.`,
       `I am an exceptionally quick learner. I went from very little coding knowledge to becoming a full stack JavaScript developer, able to create useable products, within three months. I have been acknowledged for my adaptability and ability to fit into a variety of teams and add values with my approach to our work and my skills.`,
