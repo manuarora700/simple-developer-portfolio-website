@@ -79,11 +79,8 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/18WIt_6s6FbaapZHaoRTSqGxZb-gWneAC/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "",
     linkedin: "https://www.linkedin.com/in/mei-yang-4bb190134/",
     github: "https://github.com/meiyangdev",
-    facebook: "",
   },
 };
 

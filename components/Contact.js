@@ -68,11 +68,11 @@ export default function Contact() {
             <div className="social-icons flex flex-row space-x-8">
               <a
                 href={userData.socialLinks.linkedin}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                className="h-10 w-10 flex items-center justify-center cursor-pointer"
               >
                 <svg
-                  width="24"
-                  height="24"
+                  width="30"
+                  height="30"
                   className="text-gray-500"
                   viewBox="0 0 24 24"
                   fill="none"
@@ -87,12 +87,12 @@ export default function Contact() {
                 </svg>
               </a>
               <a
-                href={userData.socialLinks.twitter}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                href={userData.socialLinks.github}
+                className="h-10 w-10 flex items-center justify-center cursor-pointer"
               >
                 <svg
-                  width="24"
-                  height="24"
+                  width="30"
+                  height="30"
                   className="text-gray-500"
                   viewBox="0 0 24 24"
                   fill="none"
@@ -101,41 +101,12 @@ export default function Contact() {
                   <path
                     fillRule="evenodd"
                     clipRule="evenodd"
-                    d="M8 3C9.10457 3 10 3.89543 10 5V8H16C17.1046 8 18 8.89543 18 10C18 11.1046 17.1046 12 16 12H10V14C10 15.6569 11.3431 17 13 17H16C17.1046 17 18 17.8954 18 19C18 20.1046 17.1046 21 16 21H13C9.13401 21 6 17.866 6 14V5C6 3.89543 6.89543 3 8 3Z"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
                     fill="currentColor"
                   />
                 </svg>
               </a>
-              <a
-                href={userData.socialLinks.instagram}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
-              >
-                <svg
-                  width="24"
-                  height="24"
-                  className="text-gray-500"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </a>
+              
             </div>
           </div>
           <form className="form rounded-lg bg-white p-4 flex flex-col">
