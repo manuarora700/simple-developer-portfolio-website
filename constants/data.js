@@ -6,23 +6,27 @@ const userData = {
   email: "mei.yang602@gmail.com",
   phone: "021 08890484",
   address: "Wellington, NZ",
-  projects: [
+  projects1: 
     {
       title: "Kiwikickz",
       link: "https://kiwikickz.herokuapp.com/",
       imgUrl: "/kiwikickz.png",
+      intro: "an e-commerce website for authenticated second-hand sneakers."
     },
+  projects2:
     {
       title: "SatNav",
       link: "https://satnav-kahu-allstars.herokuapp.com/",
       imgUrl: "/satNav.png",
+      intro: "an Saturday activity guide for you."
     },
+  projects3:
     {
       title: "ohMyBac0n",
       link: "https://ohmybac0n.herokuapp.com/",
       imgUrl: "/ohMyBacon.png",
+      intro:"a fun webpage that you find nemo fish",
     },
-  ],
   about: {
     title:
       "Hi there, thanks for stopping by." ,
