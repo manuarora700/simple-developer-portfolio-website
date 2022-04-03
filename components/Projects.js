@@ -2,25 +2,103 @@ import React from "react";
 import userData from "@constants/data";
 
 export default function Projects() {
+  const meta = {
+    webpage:""
+  }
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          Projects
-        </h1>
-      </div>
+      <div className="relative z-10 rounded-md shadow-md bg-[#bbd1d6] p-4 md:p-10 lg:p-10 max-w-6xl mx-auto mb-0 mt-0 dark:bg-gray-600 ">
+        <div className="text-container max-w-6xl mx-auto pt-10">
+          <p
+            className="leading-loose text-xl mb-4 md:text-4xl text-gray-600 font-semibold  mx-4 "
+            style={{ lineHeight: "1rem" }}
+          >
+            {userData.about.title}
+            </p>
+            <br></br>
+            <p className="leading-loose text-2xl :text-4xl text-gray-600 font-semibold  mx-4 "
+            style={{ lineHeight: "2rem" }}>
+              {userData.about.summary}
+            </p>
+            {/* <p>
+            Currently working on{" "}
+            <a
+              className="bg-[#EEEDDE] -500 rounded-md px-2 py-1 text-Black"
+              href={userData.about.currentProjectUrl}
+            >
+              {userData.about.currentProject} ✈️
+            </a>
+          </p> */}
+        </div>
+      
+     
       {/* Grid starts here */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-          {userData.projects.map((proj, idx) => (
+      <div className="bg-[#bbd1d6] dark:bg-gray-900">
+        <div classname="relative z-10 rounded-md shadow-md bg-[#bbd1d6] bg-[#bbd1d6] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-0" >
+        <p className= "leading-loose text-2xl :text-4xl text-gray-600 font-bold  mx-4">👟{userData.projects1.title}👟</p>
+        <p className= " text-xl :text-4xl text-gray-600 font-semibold  mx-4">{userData.projects1.intro}</p>
+        {/* <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40"> */}
+        <button
+              className="bg-[#5f97ae] -00 rounded-md w-30px mx-2 mt-2 py-2 px-2 text-gray-600 text-s font-semibold"
+             >
+             <a href= "https://kiwikickz.herokuapp.com/">View Webpage</a>  
+        </button>
+         <button
+              className="bg-[#5f97ae] -00 rounded-md w-30px mx-2 mt-2 py-2 px-2 text-gray-600 text-s font-semibold"
+             >
+             <a href= "https://github.com/meiyangdev/kiwikickz">View Code</a>  
+          </button>
+          <div>
+          <img src={userData.projects1.imgUrl} />
+         
+          </div>
+
+          {/* {userData.projects.map((proj, idx) => (
             <ProjectCard
+              key = {proj.title}
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
             />
-          ))}
+          ))} */}
+         
         </div>
+        <div className="text-container max-w-6xl mx-auto pt-10">
+        <p className= "leading-loose text-2xl :text-4xl text-gray-600 font-bold  mx-4">☀️{userData.projects2.title}☀️</p>
+        <p className= " text-xl :text-4xl text-gray-600 font-semibold  mx-4">{userData.projects2.intro}</p>
+        <button
+              className="bg-[#5f97ae] -00 rounded-md w-30px mx-2 mt-2 py-2 px-2 text-gray-600 text-s font-semibold"
+             >
+             <a href= "https://satnav-kahu-allstars.herokuapp.com/">View Webpage</a>  
+        </button>
+         <button
+              className="bg-[#5f97ae] -00 rounded-md w-30px mx-2 mt-2 py-2 px-2 text-gray-600 text-s font-semibold"
+             >
+             <a href= "https://github.com/meiyangdev/SATNav">View Code</a>  
+          </button>
+          <div>
+          <img src={userData.projects2.imgUrl} />
+          </div>
+        </div>
+        <div className="text-container max-w-6xl mx-auto pt-10">
+        <p className= "leading-loose text-2xl :text-4xl text-gray-600 font-bold  mx-4">🐟{userData.projects3.title}🐟</p>
+        <p className= " text-xl :text-4xl text-gray-600 font-semibold  mx-4">{userData.projects3.intro}</p>
+        <button
+              className="bg-[#5f97ae] -00 rounded-md w-30px mx-2 mt-2 py-2 px-2 text-gray-600 text-s font-semibold"
+             >
+             <a href= "https://ohmybac0n.herokuapp.com/">View Webpage</a>  
+        </button>
+         <button
+              className="bg-[#5f97ae] -00 rounded-md w-30px mx-2 mt-2 py-2 px-2 text-gray-600 text-s font-semibold"
+             >
+             <a href= "https://github.com/meiyangdev/0hMyBac0n">View Code</a>  
+          </button>
+          <div>
+          <img src={userData.projects3.imgUrl} />
+          </div>
+        </div>
+      </div>
       </div>
     </section>
   );

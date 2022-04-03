@@ -8,9 +8,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Manu Arora - Developer, Writer, Creator and YouTuber",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: "/avatar.png",
+    title: "Mei Yang - Developer, Writer, Creator and YouTuber",
+    description: `People-oriented software developer.`,
+    image: "/me.jpg",
     type: "website",
     ...customMeta,
   };
@@ -44,7 +44,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       </Head>
       <main className="dark:bg-gray-800 w-full">
         <Navbar />
-        <div>{children}</div>
+        <div><p>{children}</p></div>
         <Footer />
       </main>
     </div>
