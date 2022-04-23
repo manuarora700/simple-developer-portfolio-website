@@ -12,23 +12,23 @@ export default function Hero() {
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Developer.
+            <h1 className="text-2xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              Backend Software Engineer
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Designer.
+            <h1 className="text-2xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              Building robust APIs
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Programmer.
+            <h1 className="text-2xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              Designing scalable databases
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Youtuber.
+            <h1 className="text-2xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              Leveraging cloud platforms
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
