@@ -11,13 +11,14 @@ export default function Projects() {
       </div>
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-2 gap-8 py-20 pb-40">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
-              number={`${idx + 1}`}
+              desc={proj.desc}
+              learnedPoints={proj.learnedPoints}
             />
           ))}
         </div>
@@ -26,24 +27,36 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, imgUrl, desc, learnedPoints }) => {
   return (
-    <a href={link} className="w-full block shadow-2xl">
-      <div className="relative overflow-hidden">
-        <div className="h-72 object-cover">
-          <img
-            src={imgUrl}
-            alt="portfolio"
-            className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
-          />
-        </div>
-        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-          {title}
-        </h1>
-        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-          {number.length === 1 ? "0" + number : number}
-        </h1>
-      </div>
-    </a>
+    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
+      <h1 className="font-semibold text-xl text-center">{title}</h1>
+      <img
+        src={imgUrl}
+        alt="project picture"
+        className="w-full my-4"
+        style={{ height: 350 }}
+      />
+      <a href={link} target="_blank" className="text-gray-500">
+        {link ? "Link" : <p>TBA</p>}
+      </a>
+      <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+      {learnedPoints ? (
+        <>
+          <p className="text-gray-600 dark:text-gray-400 my-4 font-bold">
+            Skills I Learned:
+          </p>
+          <ul className="list-inside, list-disc">
+            {learnedPoints.map((point) => {
+              return (
+                <li className="text-gray-600 dark:text-gray-400 my-2 list-inside list-disc">
+                  {point}
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      ) : null}
+    </div>
   );
 };
