@@ -1,7 +1,7 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
+  githubUsername: "Irfndi",
+  name: "Irfandi Marsya",
+  designation: "Product Manager",
   avatarUrl: "/avatar.png",
   email: "manuarorawork@gmail.com",
   phone: "+91 9587738861",
@@ -109,7 +109,7 @@ const userData = {
     instagram: "https://instagram.com/maninthere",
     twitter: "https://twitter.com/mannupaaji",
     linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
+    github: "https://github.com/irfndi",
     facebook: "https://facebook.com/",
   },
 };
