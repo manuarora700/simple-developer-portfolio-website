@@ -1,7 +1,7 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
+  githubUsername: "mselmank",
+  name: "Matias Selman Kunstmann",
+  designation: "Front-end Developer",
   avatarUrl: "/avatar.png",
   email: "manuarorawork@gmail.com",
   phone: "+91 9587738861",
@@ -50,7 +50,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "Front-end developer based in Chile. I enjoy developing in React. I am always looking for new projects that allow me to meet people and learn new things. ",
     description: [
       `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
       `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
