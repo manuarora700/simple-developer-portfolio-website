@@ -113,7 +113,10 @@
 .logo {
   height: 1em;
 }
+#contact-title{
+color: #F6E37D;
 
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
