@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function FavouriteProjects() {
+export default function FavoriteProjects() {
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
