@@ -15,21 +15,7 @@ export default function Home({ repositories }) {
     >
       <Hero />
       <FavoriteProjects />
-      <LatestCode repositories={repositories} />
+      {/* <LatestCode repositories={repositories} /> */}
     </ContainerBlock>
   );
 }
-
-export const getServerSideProps = async () => {
-  console.log(process.env.GITHUB_AUTH_TOKEN);
-  let token = process.env.GITHUB_AUTH_TOKEN;
-
-  // const repositories = await getLatestRepos(userData, token);
-  // // console.log("REPOSITORIES", repositories);
-
-  return {
-    props: {
-      repositories: [],
-    },
-  };
-};

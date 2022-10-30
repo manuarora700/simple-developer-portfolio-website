@@ -14,10 +14,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl  mx-auto px-4 py-1 md:py-6">
       <div className="flex  md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
-
         <div className="flex flex-col">
           <Link href="/">
             <h1 className="font-semibold text-xl dark:text-gray-100">
