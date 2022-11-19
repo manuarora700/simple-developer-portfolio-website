@@ -12,7 +12,7 @@ export default function Footer() {
           </div>
           <div>
             {/* Support me by keeping this in the footer, please. :) */}
-            <p>
+            <div>
               Developed by
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
@@ -22,7 +22,7 @@ export default function Footer() {
                   Manu Arora
                 </a>
               </div>
-            </p>
+            </div>
           </div>
           <div className="space-x-4 flex flex-row items-center">
             <a
