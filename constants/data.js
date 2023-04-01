@@ -111,6 +111,7 @@ const userData = {
     linkedin: "https://linkedin.com/in/manuarora28",
     github: "https://github.com/manuarora700",
     facebook: "https://facebook.com/",
+    peerlist: "https://peerlist.io/manuarora",
   },
 };
 
