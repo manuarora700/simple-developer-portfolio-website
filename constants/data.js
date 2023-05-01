@@ -19,7 +19,7 @@ const userData = {
     },
     {
       title: "Guess The Number",
-      link: "https://guessgiosnumber.vercel.app/",
+      link: "https://guessgiosnumber.vercel.app",
       imgUrl: "/guessgiosnumber.png",
     },
     {
