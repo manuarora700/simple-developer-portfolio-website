@@ -13,7 +13,7 @@ const userData = {
       imgUrl: "/tmk.jpg",
     },
     {
-      title: "PlaceholderTech",
+      title: "PlaceholderTech1",
       link: "https://placeholdertech.in",
       imgUrl: "/placeholdertech.png",
     },
