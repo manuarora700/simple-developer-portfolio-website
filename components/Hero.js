@@ -28,7 +28,7 @@ export default function Hero() {
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Youtuber.
+              Welcome at gionare!
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>

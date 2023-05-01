@@ -8,8 +8,8 @@ const userData = {
   address: "NY, US.",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
+      title: "Portfolio",
+      link: "",
       imgUrl: "/tmk.jpg",
     },
     {
@@ -18,9 +18,9 @@ const userData = {
       imgUrl: "/placeholdertech.png",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "Guess The Number",
+      link: "https://guessgiosnumber.vercel.app/",
+      imgUrl: "/guessgiosnumber.png",
     },
     {
       title: "CovidRescue",
