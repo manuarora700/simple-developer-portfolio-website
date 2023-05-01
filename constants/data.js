@@ -18,7 +18,7 @@ const userData = {
       imgUrl: "/placeholdertech.png",
     },
     {
-      title: "Guess The Number",
+      title: "Tailwind Master Kit",
       link: "https://guessgiosnumber.vercel.app",
       imgUrl: "/guessgiosnumber.png",
     },
