@@ -20,7 +20,7 @@ const userData = {
     {
       title: "Tailwind Master Kit",
       link: "https://guessgiosnumber.vercel.app",
-      imgUrl: "/guessnumber.png",
+      imgUrl: "../public/guessnumber.png",
     },
     {
       title: "CovidRescue",
