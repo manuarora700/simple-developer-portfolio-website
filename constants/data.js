@@ -20,7 +20,7 @@ const userData = {
     {
       title: "Tailwind Master Kit",
       link: "https://minimalist-banking.vercel.app/",
-      imgUrl: "../public/giosbank.png",
+      imgUrl: "/giosbank.png",
     },
     {
       title: "CovidRescue",
@@ -30,12 +30,12 @@ const userData = {
     {
       title: "Algochurn",
       link: "https://guess-my-n-umber.vercel.app",
-      imgUrl: "../public/guessnumber17.png",
+      imgUrl: "/guessnumber17.png",
     },
     {
       title: "Roll The Dice",
       link: "https://rollthedice-gionare.vercel.app/",
-      imgUrl: "../public/RollTheDice.png",
+      imgUrl: "/RollTheDice.png",
     },
     // {
     //   title: "Feedmeback",
