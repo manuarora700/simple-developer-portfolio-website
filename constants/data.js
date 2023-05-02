@@ -29,8 +29,8 @@ const userData = {
     },
     {
       title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
+      link: "https://guess-my-n-umber.vercel.app",
+      imgUrl: "/guessnumber17.png",
     },
     {
       title: "Roll The Dice",
