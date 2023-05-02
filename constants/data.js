@@ -34,8 +34,8 @@ const userData = {
     },
     {
       title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
+      link: "https://rollthedice-gionare.vercel.app/",
+      imgUrl: "/RollTheDice.png",
     },
     // {
     //   title: "Feedmeback",
