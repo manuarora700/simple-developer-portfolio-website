@@ -35,7 +35,7 @@ const userData = {
     {
       title: "Playground",
       link: "https://rollthedice-gionare.vercel.app/",
-      imgUrl: "/RollTheDice.png",
+      imgUrl: "../public/RollTheDice.png",
     },
     // {
     //   title: "Feedmeback",
