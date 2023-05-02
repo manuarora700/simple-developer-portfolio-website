@@ -30,7 +30,7 @@ const userData = {
     {
       title: "Algochurn",
       link: "https://guess-my-n-umber.vercel.app",
-      imgUrl: "/guessnumber17.png",
+      imgUrl: "../public/guessnumber17.png",
     },
     {
       title: "Roll The Dice",
