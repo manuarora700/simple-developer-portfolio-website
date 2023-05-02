@@ -19,13 +19,13 @@ const userData = {
     },
     {
       title: "Tailwind Master Kit",
-      link: "https://guessgiosnumber.vercel.app",
-      imgUrl: "../public/guessnumber.png",
+      link: "https://vercel.com/gionare/minimalist-banking",
+      imgUrl: "../public/giosbank.png",
     },
     {
       title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      link: "https://docs.google.com/document/d/1yz3Pdgpp5dTR6DyRFm3dTIEisqRdIG1MsBpKZy2DSeo/edit",
+      imgUrl: "/portfolio.png",
     },
     {
       title: "Algochurn",
