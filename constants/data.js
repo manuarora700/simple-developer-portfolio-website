@@ -9,7 +9,7 @@ const userData = {
   projects: [
     {
       title: "Portfolio",
-      link: "conyact.js",
+      link: "https://brosmtbtours-github-io.vercel.app/",
       imgUrl: "/tmk.jpg",
     },
     {
@@ -19,7 +19,7 @@ const userData = {
     },
     {
       title: "Tailwind Master Kit",
-      link: "https://vercel.com/gionare/minimalist-banking",
+      link: "https://minimalist-banking.vercel.app/",
       imgUrl: "../public/giosbank.png",
     },
     {
