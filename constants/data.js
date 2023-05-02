@@ -42,11 +42,6 @@ const userData = {
     //   link: "https://feedmeback.vercel.app",
     //   imgUrl: "/feedmeback.png",
     // },
-    // {
-    //   title: "Devmedium",
-    //   link: "https://devmedium.vercel.app",
-    //   imgUrl: "/devmedium.png",
-    // },
   ],
   about: {
     title:
