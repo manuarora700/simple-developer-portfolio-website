@@ -33,7 +33,7 @@ const userData = {
       imgUrl: "/algochurn.png",
     },
     {
-      title: "Roll The Dice",
+      title: "Playground",
       link: "https://rollthedice-gionare.vercel.app/",
       imgUrl: "../public/RollTheDice.png",
     },
