@@ -50,22 +50,25 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "I'm a developer that loves building products and web applications that impact hundreds of lives",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `I've been developing full-stack application since my Bachelors degree.`,
+      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap`,
+      `so that I don't have to style everything by myself and i could implement really cool image sliders for examle to my webpages.`,
+      `Now, I'm a legend. I've been creating many nice projects which i like`,
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "BrosMTBTours",
+    currentProjectUrl: "https://brosmtbtours-github-io.vercel.app",
   },
   experience: [
     {
       title: "Founder and Web Developer",
       company: "Bros Mtb Tours",
       year: "DEC 2017 - PRESENT",
-      companyLink: "brosmtbtours.netlify.app",
-      desc: "Developed and maintained the company website using HTML, CSS, JavaScript, Bootstrap, and node.js. Perform testing on the web page, analyze user feedback, keep high-quality work, and implemented improvements to enhance web page responsiveness.",
+      companyLink: "https://brosmtbtours-github-io.vercel.app",
+      desc: [ `"Developed and maintained the company website using HTML, CSS, JavaScript, Bootstrap, and node.js.`,
+      `Perform testing on the web page, analyze user feedback, keep high-quality work, and implemented improvements to enhance web page responsiveness.",`,
+    ]
     },
     {
       title: "Front-end Web developer",
@@ -117,14 +120,14 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1yz3Pdgpp5dTR6DyRFm3dTIEisqRdIG1MsBpKZy2DSeo/edit",
+    "https://docs.google.com/document/d/1yz3Pdgpp5dTR6DyRFm3dTIEisqRdIG1MsBpKZy2DSeo/edit?usp=sharing",
   socialLinks: {
     instagram: "https://www.instagram.com/gionare/",
     twitter: "https://twitter.com",
     linkedin: "https://www.linkedin.com/in/gionare/",
     github: "https://github.com/gionare",
     facebook: "https://www.facebook.com/gionare/",
-    peerlist: "https://peerlist.io/",
+    peerlist: "https://peerlist.io/gionare",
   },
 };
 

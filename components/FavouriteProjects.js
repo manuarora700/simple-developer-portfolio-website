@@ -34,46 +34,46 @@ export default function FavouriteProjects() {
 
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
-          {/* Single card */}
+          {/* here gone be simple minimalist banking  */}
           <a
-            href="https://tailwindmasterkit.com"
+            href="https://minimalist-banking.vercel.app"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/tmk.jpg"
+                src="/giosbank.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Tailwind Master Kit
+                Minimalist banking
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
               </h1>
             </div>
           </a>
-          {/* Single card */}
+          {/* here gone be guessthenumer, instead of Placeholdertech  */}
           <a
-            href="https://placeholdertech.in"
+            href="https://guess-my-n-umber.vercel.app"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/placeholdertech.png"
+                src="/guessgiosnumber.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                PlaceholderTech
+                Guess Gios Number
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
               </h1>
             </div>
           </a>
-          {/* Single card */}
+          {/* Here gone be my portfolio. */}
           <a
             href=""
             className="w-full block col-span-3 sm:col-span-1  object-cover"
@@ -86,7 +86,7 @@ export default function FavouriteProjects() {
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Portfolio
+                Gionare Portfolio
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
