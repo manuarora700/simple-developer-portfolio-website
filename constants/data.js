@@ -15,7 +15,7 @@ const userData = {
     {
       title: "PlaceholderTech1",
       link: "https://placeholdertech.in",
-      imgUrl: "guessgiosnumber.png",
+      imgUrl: "../public/guessgiosnumber.png",
     },
     {
       title: "Tailwind Master Kit",
