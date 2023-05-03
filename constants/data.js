@@ -10,12 +10,12 @@ const userData = {
     {
       title: "BrosMTBTours",
       link: "https://brosmtbtours-github-io.vercel.app",
-      imgUrl: "/brosmtbtours2.png",
+      imgUrl: "/brosmtbtours.png",
     },
     {
       title: "WoodWorld",
       link: "https://woodworld.vercel.app",
-      imgUrl: "/woodworld1.png",
+      imgUrl: "/woodworld3.png",
     },
     {
       title: "MInimalist Bank",
