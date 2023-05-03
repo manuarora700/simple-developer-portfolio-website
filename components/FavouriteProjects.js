@@ -36,12 +36,12 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* here gone be BrosMTBTours  */}
           <a
-            href="brosmtbtours-github-io.vercel.app"
+            href="https://brosmtbtours-github-io.vercel.app/"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/brosmtbtours.png"
+                src="/brosmtbtours2.png"
                 alt="brosmtbtours"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
