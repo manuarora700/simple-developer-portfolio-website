@@ -36,8 +36,7 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* here gone be BrosMTBTours  */}
           <a
-            href="brosmtbtours-github-io.vercel.app
-"
+            href="brosmtbtours-github-io.vercel.app"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
