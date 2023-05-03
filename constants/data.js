@@ -8,7 +8,7 @@ const userData = {
   address: "NY, US.",
   projects: [
     {
-      title: "Portfolio",
+      title: "BrosMTBTours",
       link: "https://brosmtbtours-github-io.vercel.app",
       imgUrl: "/brosmtbtours2.png",
     },
@@ -18,17 +18,17 @@ const userData = {
       imgUrl: "/woodworld1.png",
     },
     {
-      title: "Tailwind Master Kit",
+      title: "MInimalist Bank",
       link: "https://minimalist-banking.vercel.app/",
       imgUrl: "/giosbank.png",
     },
     {
-      title: "CovidRescue",
+      title: "portfolio",
       link: "https://docs.google.com/document/d/1yz3Pdgpp5dTR6DyRFm3dTIEisqRdIG1MsBpKZy2DSeo/edit",
       imgUrl: "/portfolio.png",
     },
     {
-      title: "Algochurn",
+      title: "Guess The Number",
       link: "https://guess-my-n-umber.vercel.app",
       imgUrl: "/guessnumber17.png",
     },
