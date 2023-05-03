@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "gionare",
   name: "George Nareklishvili",
   designation: "Web Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatarURL.png",
   email: "gionare93@gmail.com",
   phone: "(929)591-5959",
   address: "NY, US.",
