@@ -8,12 +8,12 @@ const userData = {
   address: "NY, US.",
   projects: [
     {
-      title: "BrosMTBTours",
+      title: "Bros MTB Tours",
       link: "https://brosmtbtours-github-io.vercel.app",
       imgUrl: "/brosmtbtours.png",
     },
     {
-      title: "WoodWorld",
+      title: "Wood World",
       link: "https://woodworld.vercel.app",
       imgUrl: "/woodworld3.png",
     },
