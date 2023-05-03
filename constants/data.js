@@ -9,13 +9,13 @@ const userData = {
   projects: [
     {
       title: "Portfolio",
-      link: "https://brosmtbtours-github-io.vercel.app/",
-      imgUrl: "/tmk.jpg",
+      link: "https://brosmtbtours-github-io.vercel.app",
+      imgUrl: "/brosmtbtours2.png",
     },
     {
-      title: "PlaceholderTech1",
-      link: "https://placeholdertech.in",
-      imgUrl: "/covidrescue.png",
+      title: "WoodWorld",
+      link: "https://woodworld.vercel.app",
+      imgUrl: "/woodworld1.png",
     },
     {
       title: "Tailwind Master Kit",
