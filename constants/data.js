@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
+  githubUsername: "devanshi-jain",
+  name: "Devanshi Jain",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "djain@ucsd.edu",
+  phone: "+1 (858) 214-4291",
+  address: "San Diego, California, United States.",
   projects: [
     {
       title: "Tailwind Master Kit",
