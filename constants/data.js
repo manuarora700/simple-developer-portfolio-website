@@ -1,8 +1,8 @@
 const userData = {
   githubUsername: "manuarora700",
-  name: "Manu Arora",
+  name: "HUM Sopha",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar.jpg",
   email: "manuarorawork@gmail.com",
   phone: "+91 9587738861",
   address: "Jaipur, Rajasthan, India.",
