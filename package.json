@@ -8,8 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.4.1",
     "axios": "^0.21.1",
-    "next": "latest",
+    "next": "^15.0.3",
     "next-themes": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
